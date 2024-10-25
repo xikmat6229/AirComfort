@@ -1,0 +1,136 @@
+.phone-section {
+    width: 100%;
+    height: auto;
+}
+
+.phone-section h6 {
+    padding-top: 30px;
+}
+
+.phone-section .phone-back {
+    position: absolute;
+    top: 19%;
+    left: 5%;
+    width: 50px;
+    height: 50px;
+    background: rgb(60, 147, 253);
+    border: none;
+    border-radius: 50%;
+    color: white;
+    font-size: 20px;
+    cursor: pointer; /* Pointer ko'rsatgichini qo'shish */
+}
+
+.phone-card:hover {
+    border: 1px solid #00aaff;
+    transition: 0.4s ease;
+    transform: scale(1.05);
+}
+
+.phone-card:hover .phone-li-text {
+    background: #3ea1f2df;
+    transition: 0.4s ease;
+}
+
+.phone-card:hover .phone-li-img {
+    border: 1px solid #00aaff;
+    transition: 0.4s ease;
+}
+
+.phoneSection-container {
+    padding-top: 50px;
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 2%;
+    margin-bottom: 100px;
+}
+
+.phone-card {
+    flex: 0 0 20%;
+    height: 50vh;
+    border: 1px solid #B0BEC5;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 15px;
+    margin-top: 3%;
+    transform: scale(1);
+    transition: 0.4s ease;
+}
+
+.phone-li-text {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 25%;
+    background: #5eb4fa96;
+    border-radius: 5px 5px 10px 10px;
+    padding-left: 20px;
+    list-style-type: none;
+}
+
+.phone-li-text li {
+    width: 70%;
+}
+
+.phone-li-text i {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.phone-li-text h3 {
+    color: black;
+    font-size: 14px; /* O'lchamni ozgina oshirish */
+    width: 100%;
+    font-family: livvic;
+    font-weight: 600;
+}
+
+.phone-li-text p {
+    color: black;
+    font-size: 16px; /* O'lchamni ozgina oshirish */
+    font-family: livvic;
+}
+
+.phone-li-img {
+    width: 100%;
+    height: 70%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #B0BEC5;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    position: relative;
+}
+
+.phone-li-img img {
+    width: 90%;
+}
+
+.phone-li-img button  {
+    display: flex;
+    align-items: center;
+    justify-content: safe; 
+    width: 20px;
+    height: 20px;
+    font-size: 20px;
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    left: 140px;
+    background: none;
+    border: none;
+}

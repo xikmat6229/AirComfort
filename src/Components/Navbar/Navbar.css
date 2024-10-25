@@ -1,0 +1,125 @@
+
+:root {
+    --second-color: #E0F7FA;
+    --dark-color: #0766B2;
+    --main-color: #2196F3;
+  }
+  .NAVBAR{
+  width: 100%;
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ flex-direction: column;
+
+  }
+  .navbar {
+    position: fixed;
+    width: 100%;
+    height: 80px;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:#cfdbf5a0;
+    z-index: 1000; 
+}
+
+.navbar.sticky {
+    backdrop-filter: blur(5px); 
+    animation: slideDown 0.3s ease-in-out;
+    background: rgba(255, 255, 255, 0.7); 
+    color: #000; /* Matn rangi */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
+
+/* Animatsiya qo'shilgan kod */
+@keyframes slideDown {
+    from {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.nav-container{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.nav-container ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+    width: 50%;
+}
+.nav-container ul li a {
+    color: black;
+    font-size: 15px;
+    font-family: lato;
+    font-weight: regular;
+    text-decoration: none;
+    transition: 0.4s ease;
+    position: relative;
+}
+.nav-links a::before{
+    content: "";
+    position: absolute;
+    top:30px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: var(--dark-color);
+    transition: all 0.40s ease;
+    transform: scaleX(0);
+    transform-origin:left ;
+    z-index: 0;
+   
+}
+.nav-container a:hover::before{
+    transform: scaleX(1);
+}
+
+.nav-container ul li a:hover{
+    color: #787676;
+    transition: 0.4s ease;
+}
+.nav-container ul li a:active{
+    color: var(--dark-color);
+    transition: 0.4s ease;
+}
+.nav-container ol{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+    width: 20%;
+}
+.nav-container ol li i:hover{
+    color: #787676;
+    transition: 0.4s ease;
+}
+.nav-container ol li i:active{
+    color: var(--dark-color);
+    transition: 0.4s ease;
+}
+.nav-container ol li button{
+    font-size: 18px;
+    background: none;
+    border: none;
+}
+
+
+/* @keyframes slideDown {
+    from {
+        transform: translateY(-100%);
+    }
+    to {
+        transform: translateY(0);
+    }
+} */

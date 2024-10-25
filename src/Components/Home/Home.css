@@ -1,0 +1,25 @@
+.HOME {
+    position: relative;
+    overflow: hidden; /* Ensure blur doesn't overflow the container */
+    
+    
+}
+.home-container{
+    background: whitesmoke;
+}
+
+.HOME::before {
+    content: '';
+    position: absolute;
+    top: -100px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('/public/DALL·E 2024-10-07 14.23.32 - A realistic and clean background image for a home appliance store website with a soft, gentle breeze effect. The background features light motion and .webp');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-clip: border-box;
+    filter: blur(3px); /* Adjust the blur value as needed */
+    z-index: -1; /* Ensure the background stays behind other content */
+ 
+}

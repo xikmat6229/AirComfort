@@ -1,0 +1,123 @@
+.Products{
+    width:100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+}
+.products-container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 85%;
+    gap: 2%;
+    margin: 0 auto;
+   border: none;
+
+}
+.Products img{
+    width: 70px;
+}
+.products-container div{
+    font-family: livvic;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 20px; 
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 1.3px solid black;
+    border-radius: 10px;    
+    cursor: pointer;
+    background: white;
+    transform: scale(1);
+    transition: 0.4s ease;
+}
+.products-container div:hover{
+    border: 1.3px solid rgb(27, 102, 252);
+    color: rgb(27, 102, 252);
+    transform: scale(1.05);
+    transition: 0.4s ease;
+
+}
+.Products p{
+    width: 50%;
+}
+
+.wm{
+    width: 220px;
+    height: 70px;
+    p{
+        width: 70%;
+    }
+    img{
+        width: 60px;
+    }
+}
+.phone{
+    width: 130px;
+    height: 70px;
+    border-radius: 10px;
+    img{
+        width: 60px;
+    }
+}
+.ac{
+    width: 240px;
+    height: 70px;
+    border-radius: 10px; 
+    p{
+        width: 50%;
+    }  
+}
+.fridge{
+   width: 140px;
+    height: 70px;
+    p{
+        width: 50%;
+    }  
+}
+.cooker{
+    width: 150px;
+    height: 70px;
+    p{
+        width: 50%;
+    }  
+    img{
+        width: 60px;
+    }
+}
+.vc{
+    width:100px;
+    height: 70px;
+    p{
+        width: 30%;
+    }  
+    img{
+    width: 40px;
+    }
+}
+.tv{
+    width: 140px;
+    height: 70px;
+    p{
+        width: 25%;
+    }  
+}
+.iron{
+    width: 150px;
+    height: 70px;
+    p{
+        width: 40%;
+    }  
+}
+.blender{
+    width: 140px;
+    height: 70px;
+    p{
+        width: 50%;
+    }  
+    img{
+        width: 45px;
+    }
+}

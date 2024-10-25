@@ -1,0 +1,11 @@
+.Banners{
+    width: 90%;
+    height: 80vh;
+    margin: 0 auto;
+}
+.One-banner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+}

@@ -1,0 +1,27 @@
+.News-Slide{
+    margin:0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+}
+.News h1{
+    text-align: center;
+    font-family: livvic;
+    font-size: 32px;
+    font-weight: 500;
+}
+.News{
+    margin: 0 auto;
+    width: 100%;
+    height: 400px;
+    flex-direction: column;
+
+}
+.mySwiper{
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}

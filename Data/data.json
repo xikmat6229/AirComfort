@@ -1,0 +1,442 @@
+{
+    "MyShop":[
+        {
+            "id": 1,
+            "name": "LG Dual Inverter AC",
+            "price": 499.99,
+            "sell":20,
+            "type":"Ac",
+            "imgUrl": "https://assets.chakana.uz/product/main_image/desktop/6204b8538342b.png",
+            "brand": "LG",
+            "description": "The LG Dual Inverter AC provides fast and powerful cooling with energy efficiency, equipped with dual inverter technology that adjusts cooling based on room temperature."
+        },
+        {
+            "id": 2,
+            "name": "Samsung Wind-Free AC",
+            "price": 599.99,
+            "sell":10,
+            "type":"Ac",
+            "imgUrl": "https://images.samsung.com/is/image/samsung/p6pim/sa_en/ar24csfcbwk-mg/gallery/sa-en-wind-free-ar9500t-334438-ar24csfcbwk-mg-537534337?$720_576_JPG$",
+            "brand": "Samsung",
+            "description": "Samsung Wind-Free AC offers cooling without direct airflow, using thousands of micro-holes to provide gentle air dispersion, making it perfect for comfortable, uninterrupted cooling."
+        },
+        {
+            "id": 3,
+            "name": "Daikin FTKM Series",
+            "price": 699.99,
+            "sell":30,
+            "type":"Ac",
+            "imgUrl": "https://touchnchill.com/wp-content/uploads/2021/04/FTKG-1.jpg",
+            "brand": "Daikin",
+            "description": "Daikin FTKM Series is an energy-efficient air conditioner with advanced inverter technology, providing consistent cooling and optimal power consumption for any room."
+        },
+        {
+            "id": 4,
+            "name": "Panasonic EcoNavi AC",
+            "price": 549.99,
+            "sell":14,
+            "type":"Ac",
+            "imgUrl": "https://seanelectromecco.com.ng/wp-content/uploads/2018/07/panasonic_1.5hp_-eco_navi_split_ac_anti-_bacterial_filterenergy_saving_.jpg",
+            "brand": "Panasonic",
+            "description": "Panasonic EcoNavi AC intelligently adjusts cooling and power consumption based on room activity, ensuring effective cooling with minimal energy waste."
+        },
+        {
+            "id": 5,
+            "name": "Hitachi R32 Inverter AC",
+            "price": 649.99,
+            "sell":5,
+            "type":"Ac",
+            "imgUrl": "https://www.iceenergy.co.in/cdn/shop/files/product-49_1024x1024_crop_center.jpg?v=1702206761",
+            "brand": "Hitachi",
+            "description": "The Hitachi R32 Inverter AC uses an eco-friendly refrigerant and is designed for high efficiency with its variable speed compressor for optimal cooling and power saving."
+        },
+        {
+            "id": 6,
+            "name": "Mitsubishi Heavy Industries AC",
+            "price": 729.99,
+            "sell":2,
+            "type":"Ac",
+            "imgUrl": "https://www.avonelectronicsonline.com/wp-content/uploads/2019/09/mitsubishi-dxk-50-cs-s6-desert-xtreme-cooling-hybrid-plus-split-ac-500x500-1.jpg",
+            "brand": "Mitsubishi",
+            "description": "Mitsubishi Heavy Industries AC provides premium cooling performance with energy efficiency, featuring smart airflow and modern inverter technology."
+        },
+        {
+            "id": 7,
+            "name": "Voltas 183VCZS Inverter AC",
+            "price": 399.99,
+            "sell":18,
+            "type":"Ac",
+            "imgUrl": "https://5.imimg.com/data5/SELLER/Default/2022/4/SA/TV/CL/151044429/voltas-split-inverter-ac-1-5-ton-3-star-sac-183v-czq.jpg",
+            "brand": "Voltas",
+            "description": "Voltas 183VCZS Inverter AC is a budget-friendly air conditioner with powerful cooling and energy-saving inverter technology, ideal for home and office spaces."
+        },
+        {
+            "id": 8,
+            "name": "Blue Star IC318YBTU Inverter AC",
+            "price": 479.99,
+            "sell":7,
+            "type":"Ac",
+            "imgUrl": "https://5.imimg.com/data5/SELLER/Default/2022/3/JF/HM/VK/14472866/blue-star-1-5-ton-3-star-split-inverter-air-conditioner-ic318dltu-ia318yku--500x500.jpg",
+            "brand": "Blue Star",
+            "description": "The Blue Star IC318YBTU Inverter AC is designed for quick cooling and energy efficiency with 3-star ratings, perfect for balancing performance and cost."
+        },
+        {
+            "id": 9,
+            "name": "Whirlpool Magicool Pro AC",
+            "price": 569.99,
+            "sell":10,
+            "type":"Ac",
+            "imgUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDi4ptSQXt4GYz4HHkwL-54acb2p-saW3LDw&s",
+            "brand": "Whirlpool",
+            "description": "Whirlpool Magicool Pro AC uses advanced 6th sense technology to provide rapid cooling even in extreme temperatures while maintaining energy efficiency."
+        },
+        {
+            "id": 10,
+            "name": "Carrier Ester Neo AC",
+            "price": 429.99,
+            "sell":18,
+            "type":"Ac",
+            "imgUrl": "https://5.imimg.com/data5/SELLER/Default/2024/1/380743576/YH/ME/DH/3956631/18k-octra-rxi-r32-3-star-split-inverter-ac.jpg",
+            "brand": "Carrier",
+            "description": "Carrier Ester Neo AC offers smart cooling with its energy-efficient design, making it a reliable option for cooling large rooms effectively."
+        },
+         
+
+     
+        {
+            "id": 1,
+            "name": "LG",
+            "price": 600,
+            "sell":11,
+            "type":"Wm",
+            "imgUrl": "https://www.lg.com/uz/images/washing-machines/md07569836/md07569836-350x350.jpg",
+            "brand": "LG",
+            "description": "LG washing machine with Direct Drive technology, 7 kg, 6 Motion, Steam™ wash"
+        },
+        {
+            "id": 2,
+            "name": "LG",
+            "price": 450,
+            "sell":20,
+            "type":"Wm",
+            "imgUrl": "https://www.lg.com/uz/images/washing-machines/md07567663/md07567663-350x350.jpg",
+            "brand": "LG",
+            "description": "LG Washing Machine, 7 kg, 6 Motioni, Steam™ laundry"
+        },
+        {
+            "id": 3,
+            "name": "LG",
+            "price": 700,
+            "sell":5,
+            "type":"Wm",
+            "imgUrl": "https://www.lg.com/uz/images/washing-machines/md07539522/Basic-350.jpg",
+            "brand": "LG",
+            "description": "Narrow washing machine with AI DD technology, 8.5 kg"
+        },
+        {
+            "id": 4,
+            "name": "Ziffler WM 8120DS",
+            "price": 690.99,
+            "sell":6,
+            "type":"Wm",
+            "imgUrl": "https://ziffler.uz/wp-content/uploads/2021/12/WM-8120DS-866x866.png",
+            "brand": "Ziffler",
+            "description": "Washing Machine ZIFFLER WM 8120DS"
+        },
+        {
+            "id": 5,
+            "name": "Ziffler WM 8100BE",
+            "price": 750.10,
+            "sell":2,
+            "type":"Wm",
+            "imgUrl": "https://ziffler.uz/wp-content/uploads/2021/12/WM-8100BE-866x866.png",
+            "brand": "Ziffler",
+            "description": "Washing machine ZIFFLER WM 8100BE"
+        },
+        {
+            "id": 6,
+            "name": "ZIFFLER ZF10-DDINTS",
+            "price": 700.50,
+            "sell":15,
+            "type":"Wm",
+            "imgUrl": "https://ziffler.uz/wp-content/uploads/2021/12/ZF10-DDINTS-866x866.png",
+            "brand": "Ziffler",
+            "description": "Washing machine ZIFFLER ZF10-DDINTS"
+        },
+       
+        {
+            "id": 8,
+            "name": "Hofmann WM1514D7DI/HF",
+            "price": 880.70,
+            "sell":12,
+            "type":"Wm",
+            "imgUrl": "https://www.hofmann.uz/storage/products/LepiYNfo2vS0gqXyUveuIptK9UT9aBNJIPB3p3qG.webp",
+            "brand": "Hofmann",
+            "description": "Stiralnaya Machine Hofmann WM1514D7DI/HF series"
+        },
+        {
+            "id": 9,
+            "name": "Hofmann WM914SDG/HF",
+            "price": 750.50,
+            "sell":18,
+            "type":"Wm",
+            "imgUrl": "https://www.hofmann.uz/storage/products/S7qiUae01okI0lUhNnK7BInRoSBYl5dV4ltXvXdB.webp",
+            "brand": "Hofmann",
+            "description": "Stiralnaya Machine Hofmann WM914SDG/HF series"
+        },
+        {
+            "id": 10,
+            "name": "Samsung WW6100A",
+            "price": 750.50,
+            "sell":25,
+            "type":"Wm",
+            "imgUrl": "https://images.samsung.com/is/image/samsung/p6pim/uz_ru/ww80ag6l28beld/gallery/uz-ru-ww6100a-476344-ww80ag6l28beld-538045765?$730_584_PNG$",
+            "brand": "Samsung",
+            "description": "Washing machine with EcoBubble™ technology, WW6100A, 8 kg, White"
+        },
+        {
+            "id": 11,
+            "name": "Samsung WD5000T",
+            "price": 550.49,
+            "sell":16,
+            "type":"Wm",
+            "imgUrl": "https://images.samsung.com/is/image/samsung/p6pim/uz_ru/wd70ta047be-ld/gallery/uz-ru-combo-wd70ta046beef-wd70ta047be-ld-535384837?$730_584_PNG$",
+            "brand": "Samsung",
+            "description": "Washing machine and dryer with Eco Bubble™ technology, WD5000T, White, 7 kg/5 kg"
+        },
+        {
+            "id": 12,
+            "name": "Samsung DV6000T",
+            "price": 620.10,
+            "sell":19,
+            "type":"Wm",
+            "imgUrl": "https://images.samsung.com/is/image/samsung/p6pim/uz_ru/dv90t6240lx-lp/gallery/uz-ru-dryer-dv90t6240lhs3-dv90t6240lx-lp-535383554?$730_584_PNG$",
+            "brand": "Samsung",
+            "description": "Sushilnaya machine with AI Control function, DV6000T, Serebro, 9 kg"
+        },
+        {
+            "id": 13,
+            "name": "Shivaki WF80H425C",
+            "price": 200.70,
+            "sell":32,
+            "type":"Wm",
+            "imgUrl": "https://artelgroup.org/upload/product_pictures/333.jpg",
+            "brand": "Shivaki",
+            "description": "Washing machine Shivaki WF80H425C"
+        },
+        {
+            "id": 14,
+            "name": "Shivaki ART TM 65",
+            "price": 150.10,
+            "sell":23,
+            "type":"Wm",
+            "imgUrl": "https://artelgroup.org/upload/product_pictures/0s_Azp8lkZ.png",
+            "brand": "Shivaki",
+            "description": "Washing machine Shivaki ART TM 65"
+        },
+        {
+            "id": 15,
+            "name": "Shivaki TG 70 FP",
+            "price": 180.56,
+            "sell":22,
+            "type":"Wm",
+            "imgUrl": "https://artelgroup.org/upload/product_pictures/0z_12oJvsl.png",
+            "brand": "Shivaki",
+            "description": "Washing machine Shivaki  TG 70 FP"
+        },
+
+
+
+        {
+           "id": 1,
+            "name": "Haier A4F742CMG",
+            "price": 800.56,
+            "sell":5,
+            "type":"Fridge",
+            "imgUrl": "https://uz.haier.uz/thumb/2/R9I6ooL_hUNWOo_WqyKQSg/1200r/d/haier_a3fe742cmj_1.jpg",
+            "brand": "Haier",
+            "description": "The country of manufacture is Russia"
+        },
+        {
+           "id": 2,
+            "name": "Haier A4F742CGG",
+            "price": 800.62,
+            "type":"Fridge",
+            "imgUrl": "https://uz.haier.uz/thumb/2/TkmQbHhIU1UZ9K-eMxguhw/1200r/d/604c9ab4acc80_1.jpg",
+            "brand": "Haier",
+            "description": "The country of manufacture is Russia"
+        },
+        {
+           "id": 3,
+            "name": "Haier CEF535ASD",
+            "price": 750.51,
+            "sell":20,
+            "type":"Fridge",
+            "imgUrl": "https://uz.haier.uz/thumb/2/5fgtQFdyyALomRfr0XveQg/1200r/d/4627123430819-01-1000_2.jpg",
+            "brand": "Haier",
+            "description": "The country of manufacture is Russia"
+        },
+
+        {
+            "id":1,
+            "name": "Redmi Note 10 pro",
+            "price": "150",
+            "sell":20,
+            "type":"Phone",
+            "url":"https://cdn.mediapark.uz/imgs/48cc7a38-ec5d-4760-bd04-935dd3fa72d1_%D0%9C%D0%BE%D0%BD%D1%82%D0%B0%D0%B6%D0%BD%D0%B0%D1%8F-%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C-11300.webp"
+        },
+        {
+            "id":2,
+            "name": "Iphone 16 pro max",
+            "price": "1100",
+            "sell":16,
+            "type":"Phone",
+            "url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnPU9GrlMm6ny_O_FOXx13dgAJFogtR56VtA&s"
+        },
+        {
+            "id":3,
+            "name": "Samsung s24 Ultra",
+            "price": "900",
+            "sell":11,
+            "type":"Phone",
+            "url":"https://brostore.uz/cdn/shop/files/ff3_1.png?v=1716200132"
+        },
+        {
+            "id":4,
+            "name": "Vivo v40",
+            "price": "280",
+            "sell":12,
+            "type":"Phone",
+            "url":"https://asia-exshopstatic-vivofs.vivo.com/KuCZNhz3cVxH4yrP/my/1726122439982/c717b07619495cfd4babb0ae5a35304a.png_w860-h860.webp"
+        },
+        {
+            "id":5,
+            "name": "Oppo A77",
+            "price": "250",
+            "sell":20,
+            "type":"Phone",
+            "url":"https://opsg-img-cdn-gl.heytapimg.com/epb/202208/02/P3z4BokMakZ5RRzY.png"
+        },
+        {
+            "id":6,
+            "name": "Honor x8",
+            "price": "350",
+            "sell":12,
+            "type":"Phone",
+            "url":"https://images2.zoodmall.uz/cdn-cgi/image/w=500,fit=contain,f=auto/https%3A%2F%2Fimages2.zoodmall.com%2Fhttps%253A%2Fimg02.honorfile.com%2Fap%2Fae%2Fhonor%2Fpms%2Fproduct%2F6936520832491%2F428_428_786C78A0101EEA823734DD9B070021C47BEAA862EECF5FB7mp.png"
+        },
+        {
+            "id":7,
+            "name": "Huawei Mate 50pro ",
+            "year":2018,
+            "price": "310",
+            "sell":14,
+            "type":"Phone",
+            "url":"https://consumer.huawei.com/content/dam/huawei-cbg-site/common/mkt/pdp/admin-image/phones/mate50-pro/list/mate50-pro-black.png"
+        },
+
+
+
+        {
+            "id": 1,
+            "name": "LG Dual Inverter AC",
+            "price": 499.99,
+            "sell":20,
+            "type":"Popular",
+            "imgUrl": "https://assets.chakana.uz/product/main_image/desktop/6204b8538342b.png",
+            "brand": "LG",
+            "description": "The LG Dual Inverter AC provides fast and powerful cooling with energy efficiency, equipped with dual inverter technology that adjusts cooling based on room temperature."
+        },
+        {
+            "id": 2,
+            "name": "Mitsubishi Heavy Industries AC",
+            "price": 729.99,
+            "sell":2,
+            "type":"Popular",
+            "imgUrl": "https://www.avonelectronicsonline.com/wp-content/uploads/2019/09/mitsubishi-dxk-50-cs-s6-desert-xtreme-cooling-hybrid-plus-split-ac-500x500-1.jpg",
+            "brand": "Mitsubishi",
+            "description": "Mitsubishi Heavy Industries AC provides premium cooling performance with energy efficiency, featuring smart airflow and modern inverter technology."
+        },
+        {
+            "id": 3,
+            "name": "Voltas 183VCZS Inverter AC",
+            "price": 399.99,
+            "sell":18,
+            "type":"Popular",
+            "imgUrl": "https://5.imimg.com/data5/SELLER/Default/2022/4/SA/TV/CL/151044429/voltas-split-inverter-ac-1-5-ton-3-star-sac-183v-czq.jpg",
+            "brand": "Voltas",
+            "description": "Voltas 183VCZS Inverter AC is a budget-friendly air conditioner with powerful cooling and energy-saving inverter technology, ideal for home and office spaces."
+        },
+        {
+            "id": 3,
+            "name": "Daikin FTKM Series",
+            "price": 699.99,
+            "sell":30,
+            "type":"Popular",
+            "imgUrl": "https://touchnchill.com/wp-content/uploads/2021/04/FTKG-1.jpg",
+            "brand": "Daikin",
+            "description": "Daikin FTKM Series is an energy-efficient air conditioner with advanced inverter technology, providing consistent cooling and optimal power consumption for any room."
+        },
+        {
+            "id": 5,
+            "name": "LG",
+            "price": 450,
+            "sell":20,
+            "type":"Popular",
+            "imgUrl": "https://www.lg.com/uz/images/washing-machines/md07567663/md07567663-350x350.jpg",
+            "brand": "LG",
+            "description": "LG Washing Machine, 7 kg, 6 Motioni, Steam™ laundry"
+        },
+        {
+            "id":6,
+            "name": "Oppo A77",
+            "price": "250",
+            "sell":20,
+            "type":"Popular",
+            "url":"https://opsg-img-cdn-gl.heytapimg.com/epb/202208/02/P3z4BokMakZ5RRzY.png"
+        },
+        {
+            "id": 7,
+             "name": "Haier CEF535ASD",
+             "price": 750.51,
+             "sell":20,
+             "type":"Popular",
+             "imgUrl": "https://uz.haier.uz/thumb/2/5fgtQFdyyALomRfr0XveQg/1200r/d/4627123430819-01-1000_2.jpg",
+             "brand": "Haier",
+             "description": "The country of manufacture is Russia"
+         },
+        {
+            "id": 8,
+            "name": "Hofmann WM914SDG/HF",
+            "price": 750.50,
+            "sell":18,
+            "type":"Popular",
+            "imgUrl": "https://www.hofmann.uz/storage/products/S7qiUae01okI0lUhNnK7BInRoSBYl5dV4ltXvXdB.webp",
+            "brand": "Hofmann",
+            "description": "Stiralnaya Machine Hofmann WM914SDG/HF series"
+        },
+       
+         {
+            "id":9,
+            "name": "Redmi Note 10 pro",
+            "price": "150",
+            "sell":20,
+            "type":"Popular",
+            "url":"https://i01.appmifile.com/v1/MI_18455B3E4DA706226CF7535A58E875F0267/pms_1666350227.73667188.png"
+        },
+
+        {
+            "id":10,
+            "name": "Iphone 15 pro max",
+            "price": "1100",
+            "sell":16,
+            "type":"Popular",
+            "url":"https://my-apple.com.ua/image/catalog/products/iphone/iphone-15-pro-15-pro-max/blue-titanium-1.png"
+        }
+    ]
+        
+       
+       
+     
+
+    }

@@ -1,0 +1,130 @@
+.Compain-section{
+    width: 100%;
+    height: 150vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    background-image: url('./Woman.png');
+    background-repeat: no-repeat;
+    background-size:40%;
+    background-position-x: 50px;
+    background-position-y: 80%;
+    position: relative;
+}
+.Compain-section h1{
+    position: absolute;
+    top: 22%;
+    color: rgb(46, 142, 245);
+    font-family: livvic;
+}
+.Complain-form{
+    width: 50%;
+    height: 80vh;
+    border: 2px solid #2196F3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 3%;
+    position: absolute;
+    top:30%;
+    right: 5%;
+}
+.complain-li-1{
+    width: 90%;
+    list-style-type: none;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.complain-li-1 input{
+    width:250px;
+    height:7vh;
+    margin-top: 2%;
+    border: 2px solid #2196F3;
+    border-radius: 5px;
+    font-family: livvic;
+    font-size: 12px;
+    outline-color: white;
+    padding-left: 10px;
+}
+.complain-li-2{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.complain-li-2 textarea{
+    width: 250px;
+    height: 200px;
+    border: 2px solid #2196F3;
+    border-radius: 5px;
+    font-family: livvic;
+    font-size: 12px;
+    outline-color: white;
+    padding: 10px;
+}
+
+.complain-li-2 .file-input{
+    width: 250px;
+    height: 200px;
+    border: 2px solid #2196F3;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    border-radius: 3%;
+    transition: 0.4s ease;
+
+}
+.complain-li-2 .file-input:hover{
+    border: 4px solid #134d7da0;
+    transition: 0.4s ease;
+    
+}
+.complain-li-2 .file-input i{
+    color: #2196F3;
+    font-size: 50px;
+}
+.complain-li-2 .file-input p{
+    color: #2196F3;
+    font-size: 20px;
+    font-family: livvic;
+    font-weight: 500;
+}
+.Complain-form button{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    width:90%;
+    height: 50px;
+    background: #2196F3;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    transition: 0.2s ease;
+}
+.Compain-section button:hover{
+    background:#2195f3bd;
+    transition: 0.2s ease;
+}
+.Compain-section button:active{
+    border: 2px solid gray;
+}
+input::placeholder, 
+textarea::placeholder {
+    font-size: 12px;
+    font-family: lato;
+  color: #999; /* Placeholder rangini quyuqroq qilishingiz mumkin */
+  opacity: 1; /* Agar shaffoflik bilan bog'liq muammo bo'lsa, bu qiymatni 1 qiling */
+}

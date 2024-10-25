@@ -1,0 +1,116 @@
+.Fridge {
+    width: 100%;
+    height: 400px;
+}
+
+.fridge-container {
+    width: 90%;
+    height: 300px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    overflow-x: auto;
+    margin-top: 30px;
+    gap: 2%;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.fridge-container::-webkit-scrollbar {
+    display: none;
+}
+
+.fridge-card {
+    flex: 0 0 20%;
+    height: 300px;
+    border: 1px solid #B0BEC5;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 15px;
+    transform: scale(1);
+    transition: 0.4s ease;
+}
+
+.fridge-li-text{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height:25%;
+    background: #5eb4fa96;
+    border-radius: 5px 5px 10px 10px ;
+    padding-left: 20px;
+    list-style-type: none;
+}
+.fridge-li-text li{
+    width: 70%;
+}
+.fridge-li-text i{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.fridge-li-text h3{
+ color: black;
+ font-size: 13px;
+ font-family: livvic;
+ font-weight: 600;
+}
+.fridge-li-text p{
+    color: black;
+    font-size: 15px;
+    font-family: livvic;
+}
+.fridge-card:hover{
+    border: 1px solid #00aaff;
+    transition: 0.4s ease;
+    transform: scale(1.05);
+    .fridger-li-text{
+        background: #3ea1f2df;
+        transition: 0.4s ease
+    };
+    .fridge-li-img{
+        border: 1px solid   #00aaff;
+        transition: 0.4s ease;
+    }
+}
+
+
+.fridge-li-img {
+    width: 100%;
+    height: 70%;
+    margin: 0 auto;
+    padding: 10px; /* paddingni kamaytirdim */
+    border: 1px solid #B0BEC5;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    position: relative;
+}
+
+.fridge-li-img img {
+    width: 90%;
+}
+
+.wm-li-img button  {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    width: 20px;
+    height: 20px;
+    font-size: 20px;
+    cursor: pointer;  
+    background: none;
+    border: none;
+    position: absolute;
+    top: 10px;
+    left: 135px;
+}

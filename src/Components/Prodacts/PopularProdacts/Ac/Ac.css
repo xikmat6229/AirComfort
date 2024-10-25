@@ -1,0 +1,123 @@
+.Ac {
+    width: 100%;
+    height: 380px;
+}
+
+.ac-container {
+    width: 90%;
+    height: 350px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    overflow-x: auto;
+
+    gap: 2%;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.ac-container::-webkit-scrollbar {
+    display: none;
+}
+
+.ac-card {
+    flex: 0 0 20%;
+    height: 300px;
+    border: 1px solid #B0BEC5;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 15px;
+    transition: 0.4s ease;
+    transform: scale(1);
+}
+
+.ac-li-text {
+    display: flex;
+   
+    align-items: center;    /* Center align items */
+    justify-content: space-between; /* Distribute space between items */
+    width: 100%;
+    height: 30%;            /* Adjusted height for better fit */
+    background: #5eb4fa96; /* Background color */
+    border-radius: 5px 5px 10px 10px;
+    padding: 10px;         /* Reduced padding for better spacing */
+    list-style-type: none;
+}
+
+.ac-li-text li {
+    width: 200px;    
+}
+
+.ac-li-text h3 {
+    color: black;
+    font-size: 24px;
+    font-family: 'Livvic';
+    font-weight: 600;
+    width: 150px;          
+}
+
+.ac-li-text p {
+    color: black;
+    font-size: 14px;
+    font-family: 'Livvic';    
+    width: 100px; 
+}
+
+.ac-li-text i {
+    width: auto;         
+    cursor: pointer;      
+    font-size: 15px;      
+    color: #007bff;   
+    margin-left: 50%;    
+}
+
+
+
+.ac-card:hover{
+    border: 1px solid #00aaff;
+    transition: 0.4s ease;
+    transform: scale(1.05);
+    .ac-li-text{
+        background: #3ea1f2df;
+        transition: 0.4s ease
+    };
+    .ac-li-img{
+        border: 1px solid   #00aaff;
+        transition: 0.4s ease;
+    }
+}
+
+
+.ac-li-img {
+    width: 100%;
+    height: 70%;
+    margin: 0 auto;
+    padding: 10px; /* paddingni kamaytirdim */
+    border: 1px solid #B0BEC5;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+}
+
+.ac-li-img img {
+    width: 90%;
+}
+
+.ac-li-img button {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    width: 20px;
+    height: 20px;
+    font-size: 20px;
+    cursor: pointer;  
+    background: none;
+    border: none;
+    position: absolute;
+}

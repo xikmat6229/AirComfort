@@ -1,0 +1,70 @@
+/* Modal overlay */
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    font-family: livvic;
+}
+
+/* Modal content */
+.modal-content {
+    background-color: #fff;
+    padding: 20px;
+    width: 70%;
+    height: 80vh;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    opacity: 1;
+    transition: opacity 0.3s ease;
+    
+}
+.modal-content .modal-container{
+    width: 90%;
+    display: flex;
+
+    justify-content: space-between;
+    margin:0 auto;
+    padding-top: 50px;
+}
+.modal-container div{
+  width: 40%;
+  height: 200px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+.modal-container div img{
+    width: 80%;
+}
+
+/* Button styling */
+.modal-content button {
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #007bff; /* Ko'k fon rangi */
+    color: #fff; /* Oq matn rangi */
+    border: 2px solid #007bff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, border-color 0.3s;
+    outline: none;
+}
+
+/* Button hover va focus */
+.modal-content button:hover, 
+.modal-content button:focus {
+    background-color: #0056b3; /* Ko'k rangning to'q varianti */
+    border-color: #0056b3;
+}
+
+.modal-content button:focus {
+    outline: 2px solid #003d7a; /* Fokusda ko'rinadigan kontur */
+}
